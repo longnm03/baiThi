@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.2",
+    "yup": "^1.0.2"
+  },
+  "type": "module"
+}

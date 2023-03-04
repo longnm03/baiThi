@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Ga ham",
+      "quantity": "2",
+      "price": 2000,
+      "category": "trang mieng",
+      "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_18.png",
+      "desc": "Product 1"
+    },
+    {
+      "id": 2,
+      "productName": "Lau oc",
+      "quantity": "2",
+      "price": 2000,
+      "category": "trang mieng",
+      "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_18.png",
+      "desc": "Product 2"
+    },
+    {
+      "id": 3,
+      "productName": "Lau oc chua cay",
+      "quantity": "2",
+      "price": 2000,
+      "category": "mon chinh",
+      "image": "https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_18.png",
+      "desc": "Product 3"
+    }
+  ]
+}

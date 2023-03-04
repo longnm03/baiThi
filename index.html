@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+</body>
+<div class="container mx-auto">
+    <div class="grid grid-cols-2">
+        <div class="rounded-lg bg-white p-8 shadow-lg">
+            <form id="form-add" class="space-y-4">
+                <div>
+                    <label class="" for="name">Tên</label>
+                    <input class="w-full rounded-lg border-gray-200 p-3 text-sm" placeholder="Tên" type="text"
+                        id="name" />
+                    <div class="error error-name text-rose-600"></div>
+                </div>
+                <div>
+                    <label class="" for="quantity">Số lượng</label>
+                    <input class="w-full rounded-lg border-gray-200 p-3 text-sm" placeholder="" type="number"
+                        id="quantity" />
+                    <div class="error error-quantity text-rose-600"></div>
+                </div>
+                <div>
+                    <label class="" for="price">Giá</label>
+                    <input class="w-full rounded-lg border-gray-200 p-3 text-sm" placeholder="" type="number"
+                        id="price" />
+                </div>
+                <div class="error error-price text-rose-600"></div>
+                <div>
+                    <label class="" for="category">Loại</label>
+                    <input class="w-full rounded-lg border-gray-200 p-3 text-sm" placeholder="" type="text"
+                        id="category" />
+                </div>
+                <div class="error error-category text-rose-600"></div>
+                <div>
+                    <label class="" for="description">Mô tả</label>
+
+                    <textarea class="w-full rounded-lg border-gray-200 p-3 text-sm" placeholder="Mô tả" rows="8"
+                        id="description"></textarea>
+                    <div class="error error-description text-rose-600"></div>
+                </div>
+
+                <div class="mt-4">
+                    <button type="submit"
+                        class="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-white sm:w-auto">
+                        Thêm mới
+                    </button>
+                </div>
+            </form>
+
+        </div>
+        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <tr>
+                    <th scope="col" class="px-6 py-3">
+                        STT
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Tên món ăn
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Số lượng
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Giá
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Hết hàng
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                        Chức năng
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+</div>
+<script src="./main.js" type="module"></script>
+
+</html>
